@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Card Memory Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="cover-removebg-preview.png" alt="logo" class="logo" />
+        <h3>Ella's Flip Card Memeory Game</h3>
+      </nav>
+      <section>
+        <div class="gameSet">
+          <div class="name"><span class="playerName"> EllaAnnn </span></div>
+          <button class="restart" type="Submit">Restart</button>
+        </div>
+        <div class="cards">
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+          <div class="cardStacks">
+            <div id="face" class="cross"></div>
+            <div class="back"></div>
+          </div>
+        </div>
+        <div class="gameData">
+          <h2>Lives: <span class="playerLivesCount"> 2</span></h2>
+          <p class="score">Your Score: <span class="playerScore"> 53 </span></p>
+          <p class="score">High Score: <span class="highScore"> 53 </span></p>
+        </div>
+      </section>
+    </div>
+    <div class="startMenu">
+      <div class="clickMe">
+        <div class="popHeader">CARD FLIP GAME</div>
+        <div class="clickFip">Click to Flip</div>
+      </div>
+      <div class="welcomePage">
+        <h1>Card Flip memory game!!!</h1>
+        <p class="about">
+          Ella's card flip memory game is worn by marching same cards correctly.
+          <br />
+          Have fun as you play our game
+        </p>
+        <button class="playBtn">Play Game</button>
+      </div>
+    </div>
+    <div class="dificultyMenu">
+      <div class="diffHeader">Choose Dificulty</div>
+      <div class="diffStages">
+        <div class="easyBtn">Easy</div>
+        <div class="meduimBtn">Meduim</div>
+        <div class="hardBtn">Hard</div>
+      </div>
+    </div>
+    <div class="playerNameMenu">
+      <form class="login">
+        <label for="playerName">Enter your name to start game</label>
+        <input
+          type="text"
+          name="player-name"
+          class="playerInput"
+          id="playerName"
+          required
+        />
+        <button class="startBtn" disabled>Enter</button>
+      </form>
+    </div>
+
+    <div class="gameWon">
+      <div class="gwHeader">YOU WIN!!!</div>
+      <div class="gwInstruction">Click Restart to play Again</div>
+      <div class="restartBtn replayBtn">Restart</div>
+    </div>
+  </body>
+</html>
