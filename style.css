@@ -53,6 +53,7 @@ nav h3 {
   display: none;
   gap: 2rem;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 section {
