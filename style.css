@@ -101,7 +101,6 @@ section {
   grid-template-areas: "stack";
   transition: all 2s ease;
   cursor: pointer;
-  /* transform: rotateY(-180deg); */
   width: 100px;
   height: 125px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
@@ -113,27 +112,12 @@ section {
 
 #face {
   background-color: var(--clr-primary--200);
-  /* transition: transform 0.5s, opacity 0.8s ease; */
-
-  /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2); */
 }
 
 .back {
   z-index: 999;
-  /* transform: rotateY(0); */
-  /* transition: transform 0.5s, opacity 0.7s ease; */
-  /* cursor: pointer; */
-  /* width: 100px; */
-  /* height: 110px; */
   background-color: var(--clr-primary--500);
 }
-
-/* .toggleCard {
-  opacity: -1;
-
-  transform: rotateY(-180deg);
-  transition: transform 0.5s opacity 0.2s ease;
-} */
 
 .circle {
   display: grid;
@@ -439,6 +423,15 @@ section {
   animation: 0.8s increaseSize infinite ease-in;
 }
 
+@keyframes increaseSize {
+  from {
+  }
+  to {
+    scale: 1.2;
+  }
+}
+
+
 .disappear {
   user-select: none;
   opacity: 0;
@@ -450,13 +443,6 @@ section {
   pointer-events: none;
 }
 
-@keyframes increaseSize {
-  from {
-  }
-  to {
-    scale: 1.2;
-  }
-}
 
 .gwInstruction {
   justify-self: center;
@@ -477,8 +463,6 @@ section {
   color: var(--clr-neutral--900);
   animation: normal;
 }
-
-
 
 .playerNameMenu,
 .gameWon {
@@ -505,16 +489,6 @@ section {
     grid-auto-flow: column;
     justify-content: space-between;
   }
-
-  /* #face {
-    width: 80px;
-    height: 100px;
-  } */
-
-  /* .back {
-    width: 80px;
-    height: 100px;
-  } */
 
   .welcomePage,
   .playerNameMenu,
